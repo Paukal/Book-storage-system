@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Book storage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+    .button {
+      border-radius: 4px; 
+      border: none;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 350px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+    .button_add{
+      background-color: #BDB76B;
+    }
+    .button_retrieve{
+      background-color: #F4A460;
+    }
+    .button_update{
+      background-color: #FAEBD7;
+    }
+    .button_calculate{
+      background-color: #8FBC8F;
+    }
+    </style>
+    <style>
+    .center {
+      margin: auto;
+      width: 80%;
+      border: 5px solid #73AD21;
+      padding: 10px;
+    }
+    .center_inside {
+      margin: auto;
+      width: 90%;
+      padding: 20px;
+    }
+    .header {
+      margin-left: 95px;
+    }
+    </style>
+    </h:head>
+    <h:body>
+        <div class="center">
+            
+        <h1 class="header">BOOK STORAGE</h1>    
+            
+        <p class="center_inside">
+        <button class="button button_add"  onclick="location.href='/add_book.html'" type="button"><span>Add new book </span></button>
+        
+        <button class="button button_add" onclick="location.href='/add_antique.html'" type="button"><span>Add new antique </span></button>
+        
+        <button class="button button_add" onclick="location.href='/add_journal.html'" type="button"><span>Add new journal </span></button>
+        
+        </p>
+        
+        <p class="center_inside">
+        <button class="button button_retrieve" onclick="location.href='/retrieve_book.html'" type="button"><span>Retrieve book info</span></button>
+        
+        <button class="button button_retrieve" onclick="location.href='/retrieve_antique.html'" type="button"><span>Retrieve antique info</span></button>
+        
+        <button class="button button_retrieve" onclick="location.href='/retrieve_journal.html'" type="button"><span>Retrieve journal info</span></button>
+        </p>
+        
+        <p class="center_inside">
+        <button class="button button_update" onclick="location.href='/update_book.html'" type="button"><span>Update book info</span></button>
+        
+        <button class="button button_update" onclick="location.href='/update_antique.html'" type="button"><span>Update antique info</span></button>
+        
+        <button class="button button_update" onclick="location.href='/update_journal.html'" type="button"><span>Update journal info</span></button>
+        </p>
+        
+        <p class="center_inside">
+        <button class="button button_calculate" onclick="location.href='/calculate_book.html'" type="button"><span>Calculate book price</span></button>
+        
+        <button class="button button_calculate" onclick="location.href='/calculate_antique.html'" type="button"><span>Calculate antique price</span></button>
+        
+        <button class="button button_calculate" onclick="location.href='/calculate_journal.html'" type="button"><span>Calculate journal price</span></button>
+        </p>
+        </div>
+        
+    </h:body>
+</html>
+

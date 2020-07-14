@@ -1,0 +1,11 @@
+com\restapi\bookStorage\Book\BookController.class
+com\restapi\bookStorage\Book\Book.class
+com\restapi\bookStorage\Journal\JournalRepository.class
+com\restapi\bookStorage\AntiqueBook\AntiqueBook.class
+com\restapi\bookStorage\Book\BookRepository.class
+com\restapi\bookStorage\Journal\JournalController.class
+com\restapi\bookStorage\Journal\Journal.class
+com\restapi\bookStorage\BookStorageApplication.class
+com\restapi\bookStorage\Test.class
+com\restapi\bookStorage\AntiqueBook\AntiqueBookRepository.class
+com\restapi\bookStorage\AntiqueBook\AntiqueBookController.class

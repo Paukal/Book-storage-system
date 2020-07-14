@@ -1,0 +1,11 @@
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880
+
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880
+
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=1111,Quantity=2,Price=25,Release year=1880
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=11111,Quantity=2,Price=25,Release year=1880
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880
+Added new antique book: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Release year=1880

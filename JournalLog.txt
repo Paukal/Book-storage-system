@@ -1,0 +1,6 @@
+Added new journal: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25Science index=1
+Added new journal: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Science index=1
+Added new journal: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Science index=1
+Added new journal: Name=Mickey,Author=Mouse,Barcode=1111,Quantity=2,Price=25,Science index=1
+Added new journal: Name=Mickey,Author=Mouse,Barcode=11111,Quantity=2,Price=25,Science index=1
+Added new journal: Name=Mickey,Author=Mouse,Barcode=111,Quantity=2,Price=25,Science index=1

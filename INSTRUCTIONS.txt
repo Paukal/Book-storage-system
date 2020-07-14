@@ -1,0 +1,11 @@
+*App needs running mysql db configured before start(on port 3306):
+	1)create mysql db named book_storage
+	2)connect created db to project on project services section
+	3)configure application.properties for db connect details. Example:
+		spring.datasource.url=jdbc:mysql://localhost:3306/book_storage?zeroDateTimeBehavior=CONVERT_TO_NULL
+		spring.datasource.username=root
+		spring.datasource.password=
+
+*App saves data on db but also has logs for storing added data(BookLog.txt, JournalLog.txt, AntiqueBookLog.txt)
+
+*When running the service is accessible via: http://localhost:8080/index.xhtml

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Journal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/journal/add" method="post">
+
+            Name:<br>
+            <input type="text" name="name" value="Mickey" required>
+            <br>
+            Author:<br>
+            <input type="text" name="author" value="Mouse" required>
+            <br>
+            Barcode:<br>
+            <input type="number" name="barcode" value="111" required>
+            <br>
+            Quantity:<br>
+            <input type="number" name="quantity" value="2" required>
+            <br>
+            Price:<br>
+            <input type="number" name="price" value="25" required>
+            <br>
+            Science index:<br>
+            <input type="number" name="science_index" value="1" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <div><form action="/index.xhtml">
+            <input type="submit" value="Go back" />
+        </form></div>
+    </body>
+</html>
